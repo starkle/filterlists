@@ -23,6 +23,7 @@ www.youtube.com##ytd-guide-signin-promo-renderer
 www.youtube.com##ytd-guide-entry-renderer:has(a[title="Subscriptions"])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Subscriptions"])
 www.youtube.com##ytd-guide-entry-renderer:has(a[title="You"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="You"])
 www.youtube.com##ytd-guide-section-renderer:has(a[title="Report history"])
 www.youtube.com##ytd-guide-entry-renderer:has(a[title="Playables"])
 www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube Kids"])
