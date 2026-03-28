@@ -2,6 +2,8 @@
 ! Version: 2026-03-28
 ! Expires: 24 hours
 ! Description: Hides elements that I don't want to see, but don't belong in my other lists.
+! If they are commented out, it means I exclude them from combined lists.
+! Add them as desired to your custom filters.
 
 ! Navbar nuke
 !www.youtube.com###guide
