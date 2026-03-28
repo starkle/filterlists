@@ -1,0 +1,96 @@
+! Title: 🐸 starkle's YouTube filter
+! Version: 2026-03-28
+! Expires: 24 hours
+! Description: All of my YouTube filters combined for maximum focus.
+
+www.youtube.com##ytd-button-renderer:has-text(Sign in)
+www.youtube.com###subscribe
+www.youtube.com###subscribe-button
+www.youtube.com##yt-subscribe-button-view-model
+www.youtube.com##ytd-universal-watch-card-renderer > #header > ytd-watch-card-rich-header-renderer > #container > #body > #call-to-action-buttons > ytd-button-renderer:has-text(Subscribe)
+www.youtube.com###flexible-item-buttons > yt-button-view-model:has(button[aria-label="Save to playlist"])
+www.youtube.com##.ytd-watch-metadata > yt-button-shape:has(button[aria-label="More actions"])
+www.youtube.com##yt-multi-page-menu-section-renderer > #items > ytd-compact-link-renderer:has(a[href*="myaccount.google.com"])
+www.youtube.com##ytd-comments-header-renderer > #simple-box
+www.youtube.com##.ytd-comment-engagement-bar > #reply-button-end
+www.youtube.com##yt-multi-page-menu-section-renderer:has(a[href="/account"])
+www.youtube.com##yt-list-item-view-model:has(a[href*="accounts.google.com"])
+www.youtube.com##ytd-thumbnail > a#thumbnail > #hover-overlays
+www.youtube.com##.ytFlexibleActionsViewModelAction:has-text(Subscribe)
+www.youtube.com##tbody.ytd-about-channel-renderer > tr:has(a[href*="accounts.google.com"])
+www.youtube.com##ytd-menu-navigation-item-renderer:has(a[href*="accounts.google.com"])
+www.youtube.com##ytd-guide-signin-promo-renderer
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="Subscriptions"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Subscriptions"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="You"])
+www.youtube.com##ytd-guide-section-renderer:has(a[title="Report history"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="Playables"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube Kids"])
+www.youtube.com###guide-renderer > #footer > div > a:has-text(Contact us)
+www.youtube.com###guide-renderer > #footer > div > a:has-text(Test new features)
+www.youtube.com##.ytFlexibleActionsViewModelAction:has(button[aria-label="Save playlist"])
+www.youtube.com###playlist-actions > #end-actions > #overflow-menu
+www.youtube.com##.ytp-popup-content > .ytp-panel > .ytp-panel-footer:has(a[href="/account_playback"])
+www.youtube.com###chat-messages > #contents > #panel-pages > #input-panel
+www.youtube.com##.ytd-menu-popup-renderer > ytd-menu-service-item-renderer:has-text(Report)
+www.youtube.com##reel-action-bar-view-model > button-view-model:has(button[aria-label="Remix"])
+www.youtube.com##.ytReelChannelBarViewModelReelSubscribeButton
+www.youtube.com##.yt-spec-bottom-sheet-layout__bottom-sheet-content > div > yt-list-item-view-model:has-text(Sign in)
+www.youtube.com##.ytmVideoInfoSubscribeButton
+www.youtube.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(a[aria-label="Watch later"])
+www.youtube.com###sponsor-button
+www.youtube.com##.ytFlexibleActionsViewModelAction:has-text(Join)
+www.youtube.com###action-button:has-text(Join)
+www.youtube.com##ytd-rich-item-renderer:has(badge-shape.yt-badge-shape--membership)
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Members only"])
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Public"])
+www.youtube.com##ytd-item-section-renderer:has(#title-container:has-text(Members-only videos))
+www.youtube.com##ytd-recognition-shelf-renderer
+www.youtube.com##yt-tab-shape[tab-title="Store"]
+www.youtube.com##.ytp-variable-speed-panel-preset-button-wrapper:has(.ytp-variable-speed-panel-premium-upsell-icon)
+www.youtube.com##ytd-menu-service-item-download-renderer
+www.youtube.com##yt-download-list-item-view-model
+www.youtube.com##ytd-guide-downloads-entry-renderer
+www.youtube.com##ytd-movie-renderer:not(:has(badge-shape[aria-label="Free with ads"]))
+www.youtube.com###offer-module
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube Premium"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube TV"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="Movies & TV"])
+www.youtube.com###guide-renderer > #footer > div > a:has-text(Advertise)
+www.youtube.com###guide-renderer > #footer > div > a:has-text(NFL Sunday Ticket)
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
+www.youtube.com##yt-live-chat-icon-toggle-button-renderer#product-picker
+www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com###related
+www.youtube.com###secondary.ytd-watch-flexy:not(:has(ytd-engagement-panel-section-list-renderer[visibility="ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"])):not(:has(#chat-container):has(ytd-live-chat-frame:not([hide-chat-frame]))):not(:has(ytd-playlist-panel-renderer:not([hidden]))):not(:has(ytd-donation-shelf-renderer))
+www.youtube.com##.ytp-fullscreen-grid
+www.youtube.com##.videowall-endscreen.ytp-show-tiles
+www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-shelf-renderer
+www.youtube.com##.reel-video-in-sequence-new:not([id="0"])
+www.youtube.com##.ytd-shorts.navigation-container
+www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
+www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
+www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
+www.youtube.com##.fullscreen-recommendations-wrapper
+||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
+www.youtube.com##.shortsLockupViewModelHost
+www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
+www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
+www.youtube.com###contents > grid-shelf-view-model:has(.shortsLockupViewModelHost)
+www.youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"])
+www.youtube.com##yt-chip-cloud-chip-renderer:has-text(Shorts)
+www.youtube.com##ytd-search-filter-renderer:has(div[title="Search for Shorts"])
+www.youtube.com##yt-tab-shape[tab-title="Shorts"]
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
+www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
+www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
+www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
+www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
+www.youtube.com###voice-search-button
+www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-video-renderer:remove-attr(bigger-thumbs-style)
+www.youtube.com##ytd-channel-video-player-renderer

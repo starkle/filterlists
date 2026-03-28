@@ -1,0 +1,46 @@
+! Title: 🐸 starkle's YouTube Paid-content Nuke
+! Version: 2026-03-28
+! Expires: 24 hours
+! Description: Hides elements that require payment, like Join buttons, members-only content, and YouTube Premium promotions.
+
+! Video Join button
+www.youtube.com###sponsor-button
+! Channel join button
+www.youtube.com##.ytFlexibleActionsViewModelAction:has-text(Join)
+! Collab join button
+www.youtube.com###action-button:has-text(Join)
+! Channel members-only video list items
+www.youtube.com##ytd-rich-item-renderer:has(badge-shape.yt-badge-shape--membership)
+! Channel members-only video list filter chip
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Members only"])
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Public"])
+! Channel members-only section
+www.youtube.com##ytd-item-section-renderer:has(#title-container:has-text(Members-only videos))
+! Channel members thank-you
+www.youtube.com##ytd-recognition-shelf-renderer
+! Channel Store tab
+www.youtube.com##yt-tab-shape[tab-title="Store"]
+! Premium speed button
+www.youtube.com##.ytp-variable-speed-panel-preset-button-wrapper:has(.ytp-variable-speed-panel-premium-upsell-icon)
+! Premium download links
+www.youtube.com##ytd-menu-service-item-download-renderer
+www.youtube.com##yt-download-list-item-view-model
+www.youtube.com##ytd-guide-downloads-entry-renderer
+! Movie search results
+!www.youtube.com##ytd-movie-renderer
+! Alternatively, show movie search results that are free with ads
+www.youtube.com##ytd-movie-renderer:not(:has(badge-shape[aria-label="Free with ads"]))
+! Sidebar Movie offer
+www.youtube.com###offer-module
+! Navbar
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube Premium"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="YouTube TV"])
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="Movies & TV"])
+! Footer
+www.youtube.com###guide-renderer > #footer > div > a:has-text(Advertise)
+www.youtube.com###guide-renderer > #footer > div > a:has-text(NFL Sunday Ticket)
+! Super thanks
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
+! Livestream chat purchases
+www.youtube.com##yt-live-chat-icon-toggle-button-renderer#product-picker
+

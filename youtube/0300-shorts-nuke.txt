@@ -1,0 +1,31 @@
+! Title: 🐸 starkle's YouTube Shorts Nuke
+! Version: 2026-03-28
+! Expires: 24 hours
+! Description: Eradicates any trace of YouTube Shorts. It's like they don't exist.
+! ---
+! Redirect to normal player
+||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
+! General listings
+www.youtube.com##.shortsLockupViewModelHost
+! Home feed 
+www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
+! Sidebar
+www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
+! Search shelf
+www.youtube.com###contents > grid-shelf-view-model:has(.shortsLockupViewModelHost)
+! Search result
+www.youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"])
+! Search chip
+www.youtube.com##yt-chip-cloud-chip-renderer:has-text(Shorts)
+! Search advanced link
+www.youtube.com##ytd-search-filter-renderer:has(div[title="Search for Shorts"])
+! Channel tab
+www.youtube.com##yt-tab-shape[tab-title="Shorts"]
+! Channel shelf
+www.youtube.com##ytd-reel-shelf-renderer
+! Playlist page chip filter (the second should only appear when the first is present)
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
+www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
+! Hashtag feed
+www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
