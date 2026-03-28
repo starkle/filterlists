@@ -6,6 +6,7 @@
 ! Navbar nuke
 !www.youtube.com###guide
 !www.youtube.com###guide-button
+!www.youtube.com##ytd-mini-guide-renderer
 ! Navbar remove home section
 !www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
 !www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
