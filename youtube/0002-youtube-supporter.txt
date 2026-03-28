@@ -2,6 +2,7 @@
 ! Version: 2026-03-28
 ! Expires: 24 hours
 ! Description: All of my YouTube filters combined except for the Sign-in Nuke and Paid-content Nuke, intended for users who want improved focus but are open to financially supporting the content.
+
 www.youtube.com##ytd-browse[page-subtype="home"]
 www.youtube.com###related
 www.youtube.com###secondary.ytd-watch-flexy:not(:has(ytd-engagement-panel-section-list-renderer[visibility="ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"])):not(:has(#chat-container):has(ytd-live-chat-frame:not([hide-chat-frame]))):not(:has(ytd-playlist-panel-renderer:not([hidden]))):not(:has(ytd-donation-shelf-renderer))
@@ -29,9 +30,6 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
-
-www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
-www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
 www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
 www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
 www.youtube.com###voice-search-button

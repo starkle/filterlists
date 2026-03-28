@@ -87,8 +87,6 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
-www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
-www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
 www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
 www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
 www.youtube.com###voice-search-button

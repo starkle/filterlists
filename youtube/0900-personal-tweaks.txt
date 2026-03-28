@@ -7,8 +7,8 @@
 !www.youtube.com###guide
 !www.youtube.com###guide-button
 ! Navbar remove home section
-www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
-www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
+!www.youtube.com##ytd-guide-section-renderer:has(a[title="Home"])
+!www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Home"])
 ! Navbar remove More from YouTube
 www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
 ! Navbar subscription channels
