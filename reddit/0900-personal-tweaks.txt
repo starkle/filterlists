@@ -1,0 +1,35 @@
+! MISC
+! ---
+! Left sidebar FULL
+www.reddit.com##.popular-feed-right-rail
+www.reddit.com###left-sidebar-container
+www.reddit.com###left-nav-drawer
+www.reddit.com###navbar-menu-button
+! Left sidebar TWEAKS
+!www.reddit.com##left-nav-top-section
+!www.reddit.com##left-nav-top-section + hr
+! Optionally hide individual peices like so:
+! www.reddit.com##left-nav-top-section:remove-attr(home)
+! www.reddit.com##left-nav-top-section:remove-attr(popular)
+! www.reddit.com##left-nav-top-section:remove-attr(news)
+! www.reddit.com##left-nav-top-section:remove-attr(explore)
+!www.reddit.com###recent-communities-section
+!www.reddit.com###RESOURCES > faceplate-tracker[noun*="rereddit"]
+!www.reddit.com###RESOURCES > faceplate-tracker[noun*="rereddit"] + hr
+! Top bar Get App button
+www.reddit.com##header > nav > .justify-end > span:has(button#get-app)
+! App QR code suggestion
+www.reddit.com###nsfw-qr-dialog-contents
+! Suggested translations
+www.reddit.com###right-sidebar-contents > div:has(div.i18n-translatable-text)
+! Search result sidebar (redundant with top tabs)
+www.reddit.com##div[data-testid="search-results-sidebar"]
+! Legal links footer
+www.reddit.com###right-sidebar-container > .legal-links
+! User avatars
+!www.reddit.com##shreddit-comment > div[slot="commentAvatar"]
+!www.reddit.com##faceplate-tracker[noun="user_profile"] > a > div > span[avatar]
+! I don't know what these are
+! ---
+! Likely an AI thing
+www.reddit.com###answers-suggested-queries-m3

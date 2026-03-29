@@ -1,0 +1,57 @@
+! This is the sign in popup, would be great to block but scrolling is frozen when it is blocked fully.
+www.reddit.com##auth-flow-manager > *
+! www.reddit.com##auth-flow-manager
+! www.reddit.com##body:remove-class(scroll-is-blocked) -- <body> seemingly gets this class but removing it doesn't restore scrolling.
+! Main login button
+www.reddit.com##header > nav > .justify-end > span:has([noun="login"])
+! Comment input field
+www.reddit.com##comment-body-header > faceplate-tracker > faceplate-textarea-input
+! Comment reply button
+www.reddit.com##shreddit-comment-action-row > faceplate-tracker[noun="reply_comment"]
+! Comment overflow menu (only has report button)
+www.reddit.com##shreddit-comment-action-row > shreddit-overflow-menu
+! Comment share as post menu option
+www.reddit.com##shreddit-comment-share-button > faceplate-dropdown-menu > faceplate-menu > li.share-menu-crosspost-option
+! Award button (comments and posts)
+www.reddit.com##award-button
+! Subreddit post button
+www.reddit.com##faceplate-tracker[noun="create_post"]
+! Subreddit join button
+www.reddit.com##shreddit-join-button
+! User follow button
+www.reddit.com##follow-button
+! User overflow actions
+www.reddit.com##faceplate-dropdown-menu > faceplate-menu > faceplate-tracker[noun="block_user"]
+www.reddit.com##faceplate-dropdown-menu > faceplate-menu > faceplate-tracker[noun="report"]
+! Post report button
+www.reddit.com##rpl-dropdown > faceplate-menu > li#post-overflow-report
+! Top-right Menu buttons
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="login"]
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="try_reddit_pro"]
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="advertise"]
+! Right sidebar login buttons
+www.reddit.com##faceplate-tracker[noun="right_rail_auth"]
+! Right sidebar Moderator list button
+www.reddit.com##a[href*="/mod/"][href*="/moderators/"]
+! Invisible box on top right
+www.reddit.com###credential_picker_container
+! User buttons (MOBILE)
+www.reddit.com##shreddit-overflow-bottom-sheet > faceplate-menu > faceplate-tracker[noun="block_user"]
+www.reddit.com##shreddit-overflow-bottom-sheet > faceplate-menu > faceplate-tracker[noun="report"]
+! Top-right Menu buttons (MOBILE)
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="login"]
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="advertise"]
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="try_reddit_pro"]
+
+! -- Old Reddit --
+! Catchall
+old.reddit.com##.access-required
+old.reddit.com##.login-required
+! Sign in buttons
+old.reddit.com##.user
+! Top welcome sign-in banner
+old.reddit.com##.listingsignupbar.infobar
+! Comments sign up bar
+old.reddit.com##.commentsignupbar.infobar
+! Submission creation link
+old.reddit.com##.submit

@@ -1,0 +1,65 @@
+www.reddit.com##auth-flow-manager > *
+www.reddit.com##header > nav > .justify-end > span:has([noun="login"])
+www.reddit.com##comment-body-header > faceplate-tracker > faceplate-textarea-input
+www.reddit.com##shreddit-comment-action-row > faceplate-tracker[noun="reply_comment"]
+www.reddit.com##shreddit-comment-action-row > shreddit-overflow-menu
+www.reddit.com##shreddit-comment-share-button > faceplate-dropdown-menu > faceplate-menu > li.share-menu-crosspost-option
+www.reddit.com##award-button
+www.reddit.com##faceplate-tracker[noun="create_post"]
+www.reddit.com##shreddit-join-button
+www.reddit.com##follow-button
+www.reddit.com##faceplate-dropdown-menu > faceplate-menu > faceplate-tracker[noun="block_user"]
+www.reddit.com##faceplate-dropdown-menu > faceplate-menu > faceplate-tracker[noun="report"]
+www.reddit.com##rpl-dropdown > faceplate-menu > li#post-overflow-report
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="login"]
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="try_reddit_pro"]
+www.reddit.com###user-drawer-content > ul > faceplate-tracker[noun="advertise"]
+www.reddit.com##faceplate-tracker[noun="right_rail_auth"]
+www.reddit.com##a[href*="/mod/"][href*="/moderators/"]
+www.reddit.com###credential_picker_container
+www.reddit.com##shreddit-overflow-bottom-sheet > faceplate-menu > faceplate-tracker[noun="block_user"]
+www.reddit.com##shreddit-overflow-bottom-sheet > faceplate-menu > faceplate-tracker[noun="report"]
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="login"]
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="advertise"]
+www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="try_reddit_pro"]
+
+old.reddit.com##.access-required
+old.reddit.com##.login-required
+old.reddit.com##.user
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##.submit
+old.reddit.com##.premium-banner-outer
+www.reddit.com##shreddit-feed
+www.reddit.com##main#main-content > div > shreddit-async-loader[bundlename="shreddit_sort_dropdown"]
+www.reddit.com##div.masthead > div > search-dynamic-id-cache-controller[search-telemetry-source="popular_carousel"]
+www.reddit.com###right-sidebar-contents > aside[aria-label="Related Posts Section"]
+www.reddit.com###right-sidebar-contents > aside[aria-label="Related Posts Section"] + hr
+www.reddit.com##aside.right-rail-popular-communities
+www.reddit.com###search-dropdown-results-container:has(#reddit-trending-searches-partial-container)
+www.reddit.com##main#main-content > div > div:has-text(People also search for)
+www.reddit.com##main#main-content > div > div:has-text(People also search for) + search-telemetry-tracker
+www.reddit.com##main#main-content > div > div:has-text(People also search for) + hr
+www.reddit.com###right-sidebar-contents > div:has(h2:has-text(Top Posts))
+www.reddit.com##faceplate-search-input > div[slot="trailingContent"]
+www.reddit.com##.search-answers-preview-section:upward(1)
+www.reddit.com##.search-answers-preview-section:upward(1) + hr
+www.reddit.com##shreddit-player > div[slot="recommendation-overlay"]
+
+old.reddit.com##.linklisting.sitetable:matches-path(/^/($|((?!.*(comments|search|wiki)).*)$)/)
+old.reddit.com##.tabmenu > li:has(.choice:not(:has-text(/wiki|other discussions/)))
+old.reddit.com##.content > .menuarea
+old.reddit.com##.width-clip
+old.reddit.com##.read-next-container
+old.reddit.com##.seo-comments-recommendations
+old.reddit.com##.seo-comments
+www.reddit.com##.popular-feed-right-rail
+www.reddit.com###left-sidebar-container
+www.reddit.com###left-nav-drawer
+www.reddit.com###navbar-menu-button
+www.reddit.com##header > nav > .justify-end > span:has(button#get-app)
+www.reddit.com###nsfw-qr-dialog-contents
+www.reddit.com###right-sidebar-contents > div:has(div.i18n-translatable-text)
+www.reddit.com##div[data-testid="search-results-sidebar"]
+www.reddit.com###right-sidebar-container > .legal-links
+www.reddit.com###answers-suggested-queries-m3

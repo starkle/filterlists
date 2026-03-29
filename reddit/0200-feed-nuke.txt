@@ -1,0 +1,55 @@
+! FEED BLOCKER
+! ---
+! All feeds
+www.reddit.com##shreddit-feed
+! Homepage only
+!www.reddit.com##shreddit-feed:matches-path(/^/$/)
+!www.reddit.com##main#main-content > div:has([bundlename="shreddit_sort_dropdown"]):matches-path(/^/$/)
+!www.reddit.com##main#main-content > div:has([bundlename="shreddit_sort_dropdown"]):matches-path(/^/$/) + hr
+! Feed sort controls
+!www.reddit.com##main#main-content > div:has([bundlename="shreddit_sort_dropdown"])
+!www.reddit.com##main#main-content > div:has([bundlename="shreddit_sort_dropdown"]) + hr
+! User sort controls
+!www.reddit.com##faceplate-tabgroup#profile-feed-tabgroup:upward(1)
+!www.reddit.com##faceplate-tabgroup#profile-feed-tabgroup:upward(1) + div
+! Feed sort controls (MOBILE)
+www.reddit.com##main#main-content > div > shreddit-async-loader[bundlename="shreddit_sort_dropdown"]
+! ALGORITHM SUGGESTIONS
+! ---
+! Frontpage Trending
+www.reddit.com##div.masthead > div > search-dynamic-id-cache-controller[search-telemetry-source="popular_carousel"]
+! Right sidebar suggested feeds
+www.reddit.com###right-sidebar-contents > aside[aria-label="Related Posts Section"]
+www.reddit.com###right-sidebar-contents > aside[aria-label="Related Posts Section"] + hr
+! Right sidebar popular communities
+www.reddit.com##aside.right-rail-popular-communities
+! Trending search results
+www.reddit.com###search-dropdown-results-container:has(#reddit-trending-searches-partial-container)
+! Suggested searches
+www.reddit.com##main#main-content > div > div:has-text(People also search for)
+www.reddit.com##main#main-content > div > div:has-text(People also search for) + search-telemetry-tracker
+www.reddit.com##main#main-content > div > div:has-text(People also search for) + hr
+! "Top posts" random right sidebar stuff
+www.reddit.com###right-sidebar-contents > div:has(h2:has-text(Top Posts))
+! Searchbar AI button
+www.reddit.com##faceplate-search-input > div[slot="trailingContent"]
+! AI generated search results
+www.reddit.com##.search-answers-preview-section:upward(1)
+www.reddit.com##.search-answers-preview-section:upward(1) + hr
+! Media player suggestions
+www.reddit.com##shreddit-player > div[slot="recommendation-overlay"]
+
+! -- Old Reddit --
+! Hide subreddit content except whitelisted URL types
+old.reddit.com##.linklisting.sitetable:matches-path(/^/($|((?!.*(comments|search|wiki)).*)$)/)
+! Hide subreddit tabs except relevant types
+old.reddit.com##.tabmenu > li:has(.choice:not(:has-text(/wiki|other discussions/)))
+! Post sort controls
+old.reddit.com##.content > .menuarea
+! Popular subreddits strip
+old.reddit.com##.width-clip
+! Random suggestion box
+old.reddit.com##.read-next-container
+! SEO link traps
+old.reddit.com##.seo-comments-recommendations
+old.reddit.com##.seo-comments

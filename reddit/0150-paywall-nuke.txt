@@ -1,0 +1,6 @@
+! -- Old Reddit --
+! Premium banner
+old.reddit.com##.premium-banner-outer
+! Footer (has premium ad + ueless links)
+!old.reddit.com##.rounded.footer
+!old.reddit.com##.footer-parent > .bottommenu
