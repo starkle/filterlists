@@ -20,7 +20,8 @@ www.youtube.com##.ytd-shorts.navigation-container
 ! Navbar
 www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
-www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
+!www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
+www.youtube.com##ytd-guide-section-renderer:has-text(Explore)
 ! Embedded videos
 www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper

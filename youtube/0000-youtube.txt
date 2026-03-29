@@ -74,7 +74,7 @@ www.youtube.com##.reel-video-in-sequence-new:not([id="0"])
 www.youtube.com##.ytd-shorts.navigation-container
 www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
-www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
+www.youtube.com##ytd-guide-section-renderer:has-text(Explore)
 www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
 www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
@@ -93,7 +93,7 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
-www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(More from YouTube))
+www.youtube.com##ytd-guide-section-renderer:has-text(More from YouTube)
 www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
 www.youtube.com###voice-search-button
 www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-video-renderer:remove-attr(bigger-thumbs-style)
