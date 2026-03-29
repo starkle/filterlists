@@ -1,5 +1,5 @@
 ! Title: 🐸 starkle's YouTube Feed Nuke
-! Version: 2026-03-28
+! Version: 2026-03-29
 ! Expires: 24 hours
 ! Description: Removes most machine-curated content feeds.
 ! ---
@@ -22,8 +22,18 @@ www.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
 !www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
 www.youtube.com##ytd-guide-section-renderer:has-text(Explore)
+! ---
 ! Embedded videos
 www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
 www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
+! ---
+! Mobile
+! Home feed
+m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
+! Suggestions below video player
+m.youtube.com##.related-items-container
+! Suggestions inside fullscreen player
+m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper

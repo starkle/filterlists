@@ -1,5 +1,5 @@
 ! Title: 🐸 starkle's YouTube filter (Supporter)
-! Version: 2026-03-28
+! Version: 2026-03-29
 ! Expires: 24 hours
 ! Description: All of my YouTube filters combined except for the Sign-in Nuke and Paid-content Nuke, intended for users who want improved focus but are open to financially supporting the content.
 
@@ -18,6 +18,10 @@ www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
 www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
+m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
+m.youtube.com##.related-items-container
+m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost
 www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
@@ -32,8 +36,11 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
+m.youtube.com##yt-tab-group-shape > div > yt-tab-shape[tab-title="Shorts"]
 www.youtube.com##ytd-guide-section-renderer:has-text(More from YouTube)
 www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
 www.youtube.com###voice-search-button
 www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-video-renderer:remove-attr(bigger-thumbs-style)
 www.youtube.com##ytd-channel-video-player-renderer
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##.mobile-topbar-header-voice-search-button

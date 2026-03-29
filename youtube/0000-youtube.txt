@@ -1,5 +1,5 @@
 ! Title: 🐸 starkle's YouTube filter
-! Version: 2026-03-28
+! Version: 2026-03-29
 ! Expires: 24 hours
 ! Description: All of my YouTube filters combined for maximum focus.
 
@@ -42,6 +42,19 @@ www.youtube.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-but
 www.youtube-nocookie.com##.yt-spec-bottom-sheet-layout__bottom-sheet-content > div > yt-list-item-view-model:has-text(Sign in)
 www.youtube-nocookie.com##.ytmVideoInfoSubscribeButton
 www.youtube-nocookie.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(a[aria-label="Watch later"])
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com###dialog-container:has(a[aria-label="Sign in"])
+m.youtube.com##.channel-subscribe-button
+m.youtube.com##.slim-owner-subscribe-button
+m.youtube.com##yt-flexible-actions-view-model:has(button[aria-label="Subscribe"])
+m.youtube.com##.slim-video-action-bar-actions > button-view-model:has-text(/Save|Report/)
+m.youtube.com##ytm-comments-header-renderer > ytm-comment-simplebox-renderer
+m.youtube.com##.bottom-sheet-menu-item > ytm-menu-item:has-text(/Sign In|Your data in YouTube|Open App/)
+m.youtube.com##.bottom-sheet-menu-item > ytm-menu-item:has-text(Your data in YouTube)
+m.youtube.com##.bottom-sheet-menu-item > ytm-menu-item:has-text(Open App)
+m.youtube.com##.bottom-sheet-media-menu-item > ytm-menu-navigation-item-renderer:has-text(Save to)
+m.youtube.com##ytm-sign-in-promo-with-background-renderer
+m.youtube.com##ytm-setting-generic-category > ytm-setting-read-only-item-renderer:has(a[href*="myadcenter"])
 www.youtube.com###sponsor-button
 www.youtube.com##.ytFlexibleActionsViewModelAction:has-text(Join)
 www.youtube.com###action-button:has-text(Join)
@@ -79,6 +92,10 @@ www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
 www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
+m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
+m.youtube.com##.related-items-container
+m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost
 www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
@@ -93,8 +110,11 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Shorts"])
 www.youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Videos"])
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
+m.youtube.com##yt-tab-group-shape > div > yt-tab-shape[tab-title="Shorts"]
 www.youtube.com##ytd-guide-section-renderer:has-text(More from YouTube)
 www.youtube.com##ytd-guide-collapsible-section-entry-renderer:has(a[title=Subscriptions]) ~ *
 www.youtube.com###voice-search-button
 www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-video-renderer:remove-attr(bigger-thumbs-style)
 www.youtube.com##ytd-channel-video-player-renderer
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##.mobile-topbar-header-voice-search-button

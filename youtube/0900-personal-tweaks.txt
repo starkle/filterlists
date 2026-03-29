@@ -1,5 +1,5 @@
 ! Title: 🐸 starkle's personal YouTube tweaks
-! Version: 2026-03-28
+! Version: 2026-03-29
 ! Expires: 24 hours
 ! Description: Hides elements that I don't want to see, but don't belong in my other lists.
 ! If they are commented out, it means I exclude them from combined lists.
@@ -23,3 +23,10 @@ www.youtube.com###voice-search-button
 www.youtube.com##ytd-item-section-renderer[page-subtype="search"] > #contents > ytd-video-renderer:remove-attr(bigger-thumbs-style)
 ! Channel auto-playing video
 www.youtube.com##ytd-channel-video-player-renderer
+! ---
+! Mobile
+! Hide Comments
+!m.youtube.com##ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has-text(Comments)
+! Voice search button
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##.mobile-topbar-header-voice-search-button
