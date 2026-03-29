@@ -16,6 +16,8 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
 www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
 www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
+www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
+www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost
 www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)

@@ -39,6 +39,9 @@ www.youtube.com##.ytReelChannelBarViewModelReelSubscribeButton
 www.youtube.com##.yt-spec-bottom-sheet-layout__bottom-sheet-content > div > yt-list-item-view-model:has-text(Sign in)
 www.youtube.com##.ytmVideoInfoSubscribeButton
 www.youtube.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(a[aria-label="Watch later"])
+www.youtube-nocookie.com##.yt-spec-bottom-sheet-layout__bottom-sheet-content > div > yt-list-item-view-model:has-text(Sign in)
+www.youtube-nocookie.com##.ytmVideoInfoSubscribeButton
+www.youtube-nocookie.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(a[aria-label="Watch later"])
 www.youtube.com###sponsor-button
 www.youtube.com##.ytFlexibleActionsViewModelAction:has-text(Join)
 www.youtube.com###action-button:has-text(Join)
@@ -74,6 +77,8 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
 www.youtube.com##ytd-guide-section-renderer:has(#guide-section-title:has-text(Explore))
 www.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube.com##.fullscreen-recommendations-wrapper
+www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
+www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost
 www.youtube.com##.ytd-browse.grid > #primary > .style-scope > #contents > ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
