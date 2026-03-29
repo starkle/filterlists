@@ -25,7 +25,7 @@ www.reddit.com###right-sidebar-contents > div:has(div.i18n-translatable-text)
 ! Search result sidebar (redundant with top tabs)
 www.reddit.com##div[data-testid="search-results-sidebar"]
 ! Legal links footer
-www.reddit.com###right-sidebar-container > .legal-links
+!www.reddit.com###right-sidebar-container > .legal-links
 ! User avatars
 !www.reddit.com##shreddit-comment > div[slot="commentAvatar"]
 !www.reddit.com##faceplate-tracker[noun="user_profile"] > a > div > span[avatar]
