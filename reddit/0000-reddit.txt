@@ -1,3 +1,8 @@
+! Title: 🐸 starkle's Reddit filter
+! Version: 2026-03-28
+! Expires: 24 hours
+! Description: All of my reddit filters combined for maximum focus.
+
 www.reddit.com##auth-flow-manager > *
 www.reddit.com##header > nav > .justify-end > span:has([noun="login"])
 www.reddit.com##comment-body-header > faceplate-tracker > faceplate-textarea-input
@@ -22,7 +27,6 @@ www.reddit.com##shreddit-overflow-bottom-sheet > faceplate-menu > faceplate-trac
 www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="login"]
 www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="advertise"]
 www.reddit.com##rpl-modal-card.user-drawer-modal-card > ul > faceplate-tracker[noun="try_reddit_pro"]
-
 old.reddit.com##.access-required
 old.reddit.com##.login-required
 old.reddit.com##.user
@@ -45,7 +49,6 @@ www.reddit.com##faceplate-search-input > div[slot="trailingContent"]
 www.reddit.com##.search-answers-preview-section:upward(1)
 www.reddit.com##.search-answers-preview-section:upward(1) + hr
 www.reddit.com##shreddit-player > div[slot="recommendation-overlay"]
-
 old.reddit.com##.linklisting.sitetable:matches-path(/^/($|((?!.*(comments|search|wiki)).*)$)/)
 old.reddit.com##.tabmenu > li:has(.choice:not(:has-text(/wiki|other discussions/)))
 old.reddit.com##.content > .menuarea
