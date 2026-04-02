@@ -61,6 +61,8 @@ www.reddit.com###left-sidebar-container
 www.reddit.com###left-nav-drawer
 www.reddit.com###navbar-menu-button
 www.reddit.com##header > nav > .justify-end > span:has(button#get-app)
+www.reddit.com##header > nav > div > faceplate-tracker:has(a[href*="answers"])
+www.reddit.com##search-telemetry-tracker[data-faceplate-tracking-context*="\"answers\""
 www.reddit.com###nsfw-qr-dialog-contents
 www.reddit.com###right-sidebar-contents > div:has(div.i18n-translatable-text)
 www.reddit.com##div[data-testid="search-results-sidebar"]

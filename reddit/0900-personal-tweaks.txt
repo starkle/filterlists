@@ -18,6 +18,10 @@ www.reddit.com###navbar-menu-button
 !www.reddit.com###RESOURCES > faceplate-tracker[noun*="rereddit"] + hr
 ! Top bar Get App button
 www.reddit.com##header > nav > .justify-end > span:has(button#get-app)
+! Top bar AI button
+www.reddit.com##header > nav > div > faceplate-tracker:has(a[href*="answers"])
+! Search result AI
+www.reddit.com##search-telemetry-tracker[data-faceplate-tracking-context*="\"answers\""
 ! App QR code suggestion
 www.reddit.com###nsfw-qr-dialog-contents
 ! Suggested translations
