@@ -20,7 +20,7 @@ www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
 m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 m.youtube.com##.related-items-container
-m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.ytFullscreenVideoRecommendationsHost
 m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost

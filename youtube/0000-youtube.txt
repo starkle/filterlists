@@ -48,6 +48,7 @@ m.youtube.com##.channel-subscribe-button
 m.youtube.com##.slim-owner-subscribe-button
 m.youtube.com##yt-flexible-actions-view-model:has(button[aria-label="Subscribe"])
 m.youtube.com##.slim-video-action-bar-actions > button-view-model:has-text(/Save|Report/)
+m.youtube.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(button[aria-label="Save to playlist"])
 m.youtube.com##ytm-comments-header-renderer > ytm-comment-simplebox-renderer
 m.youtube.com##.bottom-sheet-menu-item > ytm-menu-item:has-text(/Sign In|Your data in YouTube|Open App/)
 m.youtube.com##.bottom-sheet-menu-item > ytm-menu-item:has-text(Your data in YouTube)
@@ -94,7 +95,7 @@ www.youtube-nocookie.com##.fullscreen-watch-next-entrypoint-wrapper
 www.youtube-nocookie.com##.fullscreen-recommendations-wrapper
 m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 m.youtube.com##.related-items-container
-m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.ytFullscreenVideoRecommendationsHost
 m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 ||youtube.com/shorts/*$uritransform=/shorts\/(.*)/watch?v=$1/
 www.youtube.com##.shortsLockupViewModelHost

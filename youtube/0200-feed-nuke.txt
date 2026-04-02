@@ -35,5 +35,5 @@ m.youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 ! Suggestions below video player
 m.youtube.com##.related-items-container
 ! Suggestions inside fullscreen player
-m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.ytFullscreenVideoRecommendationsHost
 m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper

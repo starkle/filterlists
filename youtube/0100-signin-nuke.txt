@@ -87,6 +87,8 @@ m.youtube.com##.slim-owner-subscribe-button
 m.youtube.com##yt-flexible-actions-view-model:has(button[aria-label="Subscribe"])
 ! Video player actions
 m.youtube.com##.slim-video-action-bar-actions > button-view-model:has-text(/Save|Report/)
+! Video fullscreen actions
+m.youtube.com##.action-menu-engagement-buttons-wrapper > ytm-slim-metadata-button-renderer:has(button[aria-label="Save to playlist"])
 ! Comment input box
 m.youtube.com##ytm-comments-header-renderer > ytm-comment-simplebox-renderer
 ! Top-right Overflow Menu links
