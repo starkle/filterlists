@@ -2,6 +2,8 @@
 www.reddit.com##auth-flow-manager > *
 ! www.reddit.com##auth-flow-manager
 ! www.reddit.com##body:remove-class(scroll-is-blocked) -- <body> seemingly gets this class but removing it doesn't restore scrolling.
+! Sign-in popup MOBILE
+www.reddit.com###signup-drawer
 ! Main login button
 www.reddit.com##header > nav > .justify-end > span:has([noun="login"])
 ! Comment input field

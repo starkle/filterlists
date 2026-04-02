@@ -4,6 +4,7 @@
 ! Description: All of my reddit filters combined for maximum focus.
 
 www.reddit.com##auth-flow-manager > *
+www.reddit.com###signup-drawer
 www.reddit.com##header > nav > .justify-end > span:has([noun="login"])
 www.reddit.com##comment-body-header > faceplate-tracker > faceplate-textarea-input
 www.reddit.com##shreddit-comment-action-row > faceplate-tracker[noun="reply_comment"]
